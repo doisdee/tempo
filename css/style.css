@@ -1,4 +1,3 @@
-/* css/style.css */
 :root {
     --rosa-claro: #FFF0F5;
     --rosa-medio: #FFB6C1;
@@ -34,7 +33,6 @@
     color: var(--rosa-profundo);
   }
   
-  /* Header */
   header {
     position: fixed;
     top: 0;
@@ -105,7 +103,6 @@
     width: 100%;
   }
   
-  /* Hero Section */
   .hero {
     height: 100vh;
     display: flex;
@@ -185,7 +182,6 @@
     box-shadow: 0 15px 40px rgba(219, 112, 147, 0.3);
   }
   
-  /* Seções */
   section {
     padding: 8rem 5%;
     position: relative;
@@ -227,7 +223,6 @@
     border-radius: 2px;
   }
   
-  /* Biografia */
   #bio {
     background-color: white;
     position: relative;
@@ -263,7 +258,6 @@
     transform: rotate(-2deg) scale(1.03);
   }
   
-  /* Linha do Tempo */
   #timeline {
     background-color: var(--rosa-claro);
   }
@@ -353,7 +347,6 @@
     color: var(--rosa-profundo);
   }
   
-  /* Projetos - Estilo Revista */
   #projects {
     background-color: white;
   }
@@ -484,7 +477,6 @@
     transform: scale(1.3);
   }
   
-  /* Valores */
   #values {
     background-color: var(--rosa-claro);
   }
@@ -521,7 +513,6 @@
     font-size: 1.5rem;
   }
   
-  /* Contato Profissional */
   #contact {
     background-color: white;
   }
@@ -574,7 +565,6 @@
     color: var(--rosa-escuro);
   }
   
-  /* Footer */
   footer {
     background: var(--rosa-profundo);
     color: white;
@@ -641,7 +631,6 @@
     opacity: 0.8;
   }
   
-  /* Animações */
   @keyframes fadeInUp {
     from {
       opacity: 0;
@@ -653,7 +642,6 @@
     }
   }
   
-  /* Responsividade */
   @media (max-width: 992px) {
     .hero-content {
       flex-direction: column-reverse;
